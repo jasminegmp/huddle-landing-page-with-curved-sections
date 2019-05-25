@@ -1,0 +1,16 @@
+$margin: 20px;
+
+.free-btn{
+	text-align: right;
+	padding: $margin $margin*2 $margin $margin;
+	border: 1px solid red;
+}
+
+.logo{
+	padding:  $margin $margin $margin $margin*2;
+	border: 1px solid blue;
+}
+
+.col-xs-6 {
+	border: 2px dotted black;
+}
