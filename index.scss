@@ -1,4 +1,16 @@
 $margin: 20px;
+$pink: hsl(322, 100%, 66%);
+$cyan: hsl(192, 100%, 9%);
+$pale-blue: hsl(207, 100%, 98%);
+$default-font-size: 12px;
+$header-height: 6em;
+$small-btn-width: 10em;
+$large-btn-width: 40em;
+
+html{
+	font-size: 12px;
+}
+
 
 .free-btn{
 	text-align: right;
@@ -6,11 +18,31 @@ $margin: 20px;
 	border: 1px solid red;
 }
 
+.btn{
+	border-radius: $margin * 2;
+	border: 1px solid $pink;
+	color: $pink;
+	width: $small-btn-width;
+}
+
 .logo{
 	padding:  $margin $margin $margin $margin*2;
-	border: 1px solid blue;
 }
 
 .col-xs-6 {
-	border: 2px dotted black;
+	//border: 2px dotted black;
+	height: $header-height;
+}
+
+.row{
+	border: 3px solid pink;
+
+	//padding: 0 $margin 0 $margin;
+}
+
+
+// desktop support
+@media screen and (min-width: 800px) {
+
+
 }
