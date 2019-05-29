@@ -1,43 +1,135 @@
 $margin: 20px;
+$padding: 10px;
 $pink: hsl(322, 100%, 66%);
+$gray: hsl(0, 0%, 50%);
 $cyan: hsl(192, 100%, 9%);
+$white: #ffffff;
 $pale-blue: hsl(207, 100%, 98%);
+$violet: hsl(300, 100%, 27%);
 $default-font-size: 12px;
 $header-height: 6em;
 $small-btn-width: 10em;
 $large-btn-width: 40em;
+$headline-font: 3em;
+$large-icon: 2.5em;
+$body-font: 1.5em;
+$box-shadow:  2px 2px 10px #555555;
+
+// Google Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:400,600,700&display=swap');
+
 
 html{
 	font-size: 12px;
 }
 
-
-.free-btn{
-	text-align: right;
-	padding: $margin $margin*2 $margin $margin;
-	border: 1px solid red;
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: $body-font;
+	color: $cyan;
 }
 
 .btn{
 	border-radius: $margin * 2;
 	border: 1px solid $pink;
+	color: $white;
+	background: $pink;
+	box-shadow: $box-shadow;
+	padding: $padding*1.5 $padding*6 $padding*1.5 $padding*6;
+	font-weight: 600;
+}
+
+.btn a{
+	border: 1px solid $pink;
 	color: $pink;
-	width: $small-btn-width;
+	background: $white;
+}
+
+.fit-image{
+	width: 100%;
+	height: auto;
+}
+
+
+.row{
+	display: flex;
+	border: 3px solid pink;
+	padding: $padding*8;
+	text-align: center;
+}
+
+.fit-image{
+	width: 100%;
+}
+
+.free-btn-col{
+	text-align: right;
+	padding-top: $padding;
+}
+
+.btn-free{
+	background: $white;
+	color: $pink;
+	box-shadow: none;
+	font-weight: 400;
+	padding: $padding $padding*2 $padding $padding*2;
 }
 
 .logo{
-	padding:  $margin $margin $margin $margin*2;
+	padding:  $padding;
+	text-align: left;
 }
 
-.col-xs-6 {
-	//border: 2px dotted black;
-	height: $header-height;
+h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: $headline-font;
+	line-height: $body-font;
 }
 
-.row{
-	border: 3px solid pink;
+.row-1{
+	padding: $padding*2;
+}
 
-	//padding: 0 $margin 0 $margin;
+.row-2{
+	margin-top: $margin * 10;
+}
+
+.row-3{
+	padding-left: $padding * 3;
+	padding-right: $padding * 3;
+}
+
+.row-5{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: $margin*5;
+}
+
+.row-6, .row-7{
+	margin-top: $margin*5;
+	color: $gray;
+}
+
+h2{
+	font-weight: 700;
+	font-size: $headline-font * 2;
+	color: $cyan;
+	
+}
+
+h3{
+	font-weight: 700;
+
+}
+
+.pale-blue-background{
+	background: $pale-blue;
+}
+
+.row-8{
+	width: 60%;
+	margin-left: 20%;
 }
 
 
