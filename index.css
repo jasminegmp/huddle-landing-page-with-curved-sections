@@ -9,6 +9,24 @@ body {
   color: #00252e;
 }
 
+footer {
+  color: #ffffff;
+  border: 1px solid red;
+}
+
+.mt-4 {
+  margin-top: 5rem !important;
+}
+
+.mt-5 {
+  margin-top: 15rem !important;
+}
+
+.py-5 {
+  padding-top: 10rem !important;
+  padding-bottom: 10rem !important;
+}
+
 .btn {
   border-radius: 40px;
   border: 1px solid #ff52bf;
@@ -25,6 +43,10 @@ body {
   background: #ffffff;
 }
 
+.subscribe {
+  border-radius: 10px;
+}
+
 .fit-image {
   width: 100%;
   height: auto;
@@ -32,7 +54,6 @@ body {
 
 .row {
   display: flex;
-  border: 3px solid pink;
   text-align: center;
 }
 
@@ -40,9 +61,8 @@ body {
   width: 100%;
 }
 
-.free-btn-col {
-  text-align: right;
-  padding-top: 10px;
+.col-xs-6 {
+  border: 1px solid red;
 }
 
 .btn-free {
@@ -53,9 +73,8 @@ body {
   padding: 10px 20px 10px 20px;
 }
 
-.logo {
-  padding: 10px;
-  text-align: left;
+.btn-free-col {
+  text-align: right;
 }
 
 h1 {
@@ -63,30 +82,6 @@ h1 {
   font-weight: 700;
   font-size: 3em;
   line-height: 1.5em;
-}
-
-.row-1 {
-  padding: 20px;
-}
-
-.row-2 {
-  margin-top: 200px;
-}
-
-.row-3 {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.row-5 {
-  width: 60%;
-  margin-left: 20%;
-  margin-top: 100px;
-}
-
-.row-6, .row-7 {
-  margin-top: 100px;
-  color: gray;
 }
 
 h2 {
@@ -99,13 +94,28 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-weight: 700;
+  font-size: 2.4em;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
 .pale-blue-background {
   background: #f5faff;
 }
 
-.row-8 {
-  width: 60%;
-  margin-left: 20%;
+.cyan-background {
+  background: #00252e;
+}
+
+.social-media a {
+  font-size: 3em;
+  color: #ffffff;
+  padding-right: 40px;
 }
 
 /*# sourceMappingURL=index.css.map */
