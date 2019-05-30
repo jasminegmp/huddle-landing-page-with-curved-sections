@@ -6,9 +6,7 @@ I got the files to start this challenge from [Frontend Mentor](https://www.front
 
 ## Build Info
 
-I used SCSS preprocessor and used Sass 3.5.1 in order to build index.css: sass index.scss:index.css.
-
-All edits were done using HTML and CSS only.
+I used Bootstrap 4 and a SCSS preprocessor. I used Sass 3.5.1 in order to build index.css: sass index.scss:index.css.
 
 Solution is live here: https://jasminegmp.github.io/huddle-landing-page-with-curved-sections/
 
