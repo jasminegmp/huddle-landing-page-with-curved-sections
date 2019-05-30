@@ -11,7 +11,11 @@ body {
 
 footer {
   color: #ffffff;
-  border: 1px solid red;
+}
+
+.px-4 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
 }
 
 .mt-4 {

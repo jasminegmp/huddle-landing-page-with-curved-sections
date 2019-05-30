@@ -32,7 +32,12 @@ body{
 
 footer{
 	color: $white;
-	border: 1px solid red;
+}
+
+
+.px-4{
+	padding-left: ($spacer * 5) !important;
+	padding-right: ($spacer * 5) !important;
 }
 
 .mt-4{
@@ -142,6 +147,10 @@ h5{
 	font-size: $headline-font;
 	color: $white;
 	padding-right: $padding * 4;
+}
+
+
+.form-control{
 }
 // desktop support
 @media screen and (min-width: 800px) {
