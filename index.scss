@@ -34,6 +34,9 @@ footer{
 	color: $white;
 }
 
+.logo{
+	filter: brightness(100);
+}
 
 .px-4{
 	padding-left: ($spacer * 5) !important;
@@ -149,19 +152,6 @@ h5{
 	padding-right: $padding * 4;
 }
 
-
-.form-control{
-}
-
-// desktop support
-@media screen and (max-width: 420px) {
-
-
-}
-
-
-// desktop support
-@media screen and (min-width: 800px) {
-
-
+.social-media{
+	color: $white;
 }

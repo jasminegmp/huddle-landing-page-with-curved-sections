@@ -13,6 +13,10 @@ footer {
   color: #ffffff;
 }
 
+.logo {
+  filter: brightness(100);
+}
+
 .px-4 {
   padding-left: 5rem !important;
   padding-right: 5rem !important;
@@ -120,6 +124,10 @@ h5 {
   font-size: 3em;
   color: #ffffff;
   padding-right: 40px;
+}
+
+.social-media {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=index.css.map */
