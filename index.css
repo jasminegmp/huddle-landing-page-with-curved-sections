@@ -13,78 +13,6 @@ footer {
   color: #ffffff;
 }
 
-.logo {
-  filter: brightness(100);
-}
-
-.px-4 {
-  padding-left: 5rem !important;
-  padding-right: 5rem !important;
-}
-
-.mt-4 {
-  margin-top: 5rem !important;
-}
-
-.mt-5 {
-  margin-top: 15rem !important;
-}
-
-.py-5 {
-  padding-top: 10rem !important;
-  padding-bottom: 10rem !important;
-}
-
-.btn {
-  border-radius: 40px;
-  border: 1px solid #ff52bf;
-  color: #ffffff;
-  background: #ff52bf;
-  box-shadow: 2px 2px 10px #555555;
-  padding: 15px 60px 15px 60px;
-  font-weight: 600;
-}
-
-.btn a {
-  border: 1px solid #ff52bf;
-  color: #ff52bf;
-  background: #ffffff;
-}
-
-.subscribe {
-  border-radius: 10px;
-}
-
-.fit-image {
-  width: 100%;
-  height: auto;
-}
-
-.row {
-  display: flex;
-  text-align: center;
-}
-
-.fit-image {
-  width: 100%;
-}
-
-.col-xs-6 {
-  border: 1px solid red;
-}
-
-.btn-free {
-  background: #ffffff;
-  color: #ff52bf;
-  box-shadow: none;
-  font-weight: 400;
-  padding: 10px 20px 10px 20px;
-}
-
-.btn-free-col {
-  text-align: right;
-}
-
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -112,6 +40,48 @@ h5 {
   font-size: 1.5em;
 }
 
+.row {
+  display: flex;
+  text-align: center;
+}
+
+.logo {
+  filter: brightness(100);
+}
+
+.fit-image {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  border-radius: 40px;
+  border: 1px solid #ff52bf;
+  color: #ffffff;
+  background: #ff52bf;
+  box-shadow: 2px 2px 10px #555555;
+  padding: 15px 60px 15px 60px;
+  font-weight: 600;
+}
+
+.btn a {
+  border: 1px solid #ff52bf;
+  color: #ff52bf;
+  background: #ffffff;
+}
+
+.btn-free {
+  background: #ffffff;
+  color: #ff52bf;
+  box-shadow: none;
+  font-weight: 400;
+  padding: 10px 20px 10px 20px;
+}
+
+.btn-free-col {
+  text-align: right;
+}
+
 .pale-blue-background {
   background: #f5faff;
 }
@@ -120,14 +90,32 @@ h5 {
   background: #00252e;
 }
 
+.subscribe {
+  border-radius: 10px;
+}
+
 .social-media a {
   font-size: 3em;
   color: #ffffff;
   padding-right: 40px;
 }
 
-.social-media {
-  color: #ffffff;
+.px-4 {
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+}
+
+.mt-4 {
+  margin-top: 5rem !important;
+}
+
+.mt-5 {
+  margin-top: 15rem !important;
+}
+
+.py-5 {
+  padding-top: 10rem !important;
+  padding-bottom: 10rem !important;
 }
 
 /*# sourceMappingURL=index.css.map */

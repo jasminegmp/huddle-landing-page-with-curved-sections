@@ -34,88 +34,12 @@ footer{
 	color: $white;
 }
 
-.logo{
-	filter: brightness(100);
-}
-
-.px-4{
-	padding-left: ($spacer * 5) !important;
-	padding-right: ($spacer * 5) !important;
-}
-
-.mt-4{
-	margin-top: ($spacer * 5) !important;
-}
-
-.mt-5{
-	margin-top: ($spacer * 15) !important;
-}
-
-.py-5{
-	padding-top: ($spacer * 10) !important;
-	padding-bottom: ($spacer * 10) !important;
-}
-
-.btn{
-	border-radius: $margin * 2;
-	border: 1px solid $pink;
-	color: $white;
-	background: $pink;
-	box-shadow: $box-shadow;
-	padding: $padding*1.5 $padding*6 $padding*1.5 $padding*6;
-	font-weight: 600;
-}
-
-.btn a{
-	border: 1px solid $pink;
-	color: $pink;
-	background: $white;
-}
-
-.subscribe{
-	border-radius: $padding;
-}
-
-.fit-image{
-	width: 100%;
-	height: auto;
-}
-
-
-.row{
-	display: flex;
-	//border: 3px solid pink;
-	text-align: center;
-}
-
-.fit-image{
-	width: 100%;
-}
-
-
-.col-xs-6{
-	border: 1px solid red;
-}
-
-.btn-free{
-	background: $white;
-	color: $pink;
-	box-shadow: none;
-	font-weight: 400;
-	padding: $padding $padding*2 $padding $padding*2;
-}
-
-.btn-free-col{
-	text-align: right;
-}
-
 h1{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	font-size: $headline-font;
 	line-height: $body-font;
 }
-
 
 h2{
 	font-weight: 700;
@@ -138,6 +62,50 @@ h5{
 	font-size: $headline-font* .5;
 }
 
+.row{
+	display: flex;
+	text-align: center;
+}
+
+.logo{
+	filter: brightness(100);
+}
+
+.fit-image{
+	width: 100%;
+	height: auto;
+}
+
+.btn{
+	border-radius: $margin * 2;
+	border: 1px solid $pink;
+	color: $white;
+	background: $pink;
+	box-shadow: $box-shadow;
+	padding: $padding*1.5 $padding*6 $padding*1.5 $padding*6;
+	font-weight: 600;
+}
+
+.btn a{
+	border: 1px solid $pink;
+	color: $pink;
+	background: $white;
+}
+
+
+.btn-free{
+	background: $white;
+	color: $pink;
+	box-shadow: none;
+	font-weight: 400;
+	padding: $padding $padding*2 $padding $padding*2;
+}
+
+.btn-free-col{
+	text-align: right;
+}
+
+
 .pale-blue-background{
 	background: $pale-blue;
 }
@@ -146,12 +114,32 @@ h5{
 	background: $cyan;
 }
 
+.subscribe{
+	border-radius: $padding;
+}
+
+
 .social-media a{
 	font-size: $headline-font;
 	color: $white;
 	padding-right: $padding * 4;
 }
 
-.social-media{
-	color: $white;
+// Modifications to bootstrap padding and margin classes
+.px-4{
+	padding-left: ($spacer * 5) !important;
+	padding-right: ($spacer * 5) !important;
+}
+
+.mt-4{
+	margin-top: ($spacer * 5) !important;
+}
+
+.mt-5{
+	margin-top: ($spacer * 15) !important;
+}
+
+.py-5{
+	padding-top: ($spacer * 10) !important;
+	padding-bottom: ($spacer * 10) !important;
 }
